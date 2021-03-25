@@ -5,21 +5,22 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
-    background-color: rgba(229, 229, 229, 1);
+header{
+    height: 150px;
+    width: 100%;
 }
 
-.big_container{
-    width: 90%;
-    margin: auto;
+.bcg{
+    background-color: rgba(244, 249, 253, 1);  
 }
 
 #top{
+    width: 75%;
     height: 75px;
-    background-color: rgba(244, 249, 253, 1);
+    margin: auto;
 }
 
-.top_left{
+#top_left{
     width:50%;
     display: inline-block;
 }
@@ -35,6 +36,7 @@ form{
     background-color: transparent;
     font-weight: 600;
     margin: 0px 15px;
+    cursor: pointer;
 }
 
 #lenguage{
@@ -54,7 +56,7 @@ form{
     font-weight: 600;
 }
 
-.top_right{
+#top_right{
     width: 49%;
     text-align: right;
     margin-top: 10px;
@@ -68,6 +70,7 @@ form{
     margin: 10px;
     display: inline-block;
     padding: 10px 10px;
+    cursor: pointer;
 }
 
 .log{
@@ -80,16 +83,21 @@ form{
     color: white;
 }
 
-#top_bott{
-    width: 100%;
-    height: 75px;
-    background-color: white;
+.sol:hover{
+    background-color: rgba(240, 114, 86, 0.329);
+    color: coral;
 }
 
-.menu_left{
-    width: 50%;
-    display: inline-block;
-    text-align: right;
+.log:hover{
+    background-color: coral;
+    color: white;
+}
+
+#top_bott{
+    width: 75%;
+    margin: auto;
+    height: 75px;
+    background-color: white;
 }
 
 .icon{
@@ -98,11 +106,78 @@ form{
     margin: 20px 0px;
 }
 
+.menu_left{
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+
 #pricing{
+    color:rgba(50, 73, 91, 1) ;
+    font-weight: 600;
     border: none;
     text-decoration: none;
 }
 
+#grow{
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
 
+#bcg-img{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 244, 239, 1);
+    background-image: url(../img/jumbotron.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#cont{
+    height: 70%;
+    width: 75%;
+    margin: auto;
+}
+
+.titolo{
+    width: 780px;
+    height: 100%;
+    padding-top: 50px;
+    font-size: 1.9rem;
+}
+
+p{
+    color: rgba(60, 79, 97, 1);
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.titolo>.btn{
+    padding: 20px 40px;
+    margin: 20px 0px;
+    font-size: 1rem;
+}
+
+span{
+    color: rgba(60, 79, 97, 1);
+    font-size: 13px;
+    display: block;
+    font-weight: 600;
+    margin-top: 10px;
+
+}
+
+#divisorio{
+    width: 100%;
+    height: 90px;
+    background-color: rgba(175, 235, 228, 1);
+    border-top: 3px solid rgba(51, 71, 91, 1);
+    border-bottom: 3px solid rgba(51, 71, 91, 1);
+    position: absolute;
+    bottom: 0;
+}
 
 
