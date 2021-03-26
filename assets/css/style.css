@@ -13,6 +13,11 @@ header{
 }
 /* utility */
 
+body{
+    min-width: 1400px;
+    max-width: 2000px;
+}
+
 /********************
  nav top
 *******************/
@@ -141,7 +146,7 @@ i{
  **************/
 
 #grow{
-    height: 710px;
+    height: 695px;
     width: 100%;
     position: relative;
 }
@@ -204,11 +209,17 @@ span{
 /jumbotron 
 ************ */
 
+/************
+ power 
+ *************/
+main{
+    background-color:rgba(244, 249, 253, 1);
+}
+
 #power{
     height: 600px;
     width: 100%;
-    background-color:rgba(244, 249, 253, 1);
-    position: relative;
+    padding: 50px;
 }
 
 .content{
@@ -217,15 +228,115 @@ span{
     margin: auto;
 }
 
-#cubo{
-    display: inline-block;
-    position: absolute;
-    margin-top: 70px;
-    left: 50%;
-    transform: translate(-50%);
+.imag{
+    display: block;
+    margin: 0 auto;
+    
 }
 
 h2{
     text-align: center;
     font-size: 2rem;
+}
+
+.content>p{
+    text-align: center;
+    font-size: 1.35rem;
+    padding: 30px;
+}
+/****************
+/power
+******************  */
+
+/****************
+free hub 
+*****************/
+#free_hub{
+    height: 600px;
+    width: 75%;
+    margin: 50px auto;
+    background-color: white;
+    box-shadow: 3px gray;
+} 
+
+.free{
+    height: 80%;
+    margin: 50px 0px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.left{
+    width: 30%;
+    height: 100%;
+    padding-top: 50px;
+    display: inline-block;
+}
+
+.book{
+    object-fit: none;
+    height: 190px;
+    width: 250px;
+}
+
+.learn{
+    margin-left: 125px;
+    padding: 20px 40px;
+}
+
+.right{
+    padding-top:50px;
+    width: 69%;
+    display: inline-block;
+}
+
+.free_right_top{
+    width: 70%;
+}
+
+h3{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+.popolar{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.popolar>span{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.linea{
+    display: inline-block;
+    width: 500px;
+    height: 2px;
+    background-color: rgba(60, 79, 97, 1);
+    margin-left: 50px;
+    vertical-align: middle;
+}
+
+.right>ul>li{
+    display: inline;
+    margin: 20px;
+    color: rgba(60, 79, 97, 1);
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+li>span{
+    display: inline;
+    border: 1px solid coral;
+    border-radius: 50%;
+    background-color: coral;
+    color: white;
+    margin-right: 15px;
+    padding: 2px;
 }
