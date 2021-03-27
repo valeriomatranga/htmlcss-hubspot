@@ -55,6 +55,10 @@ a{
     font-weight: 600;
 }
 
+a:hover{
+    color: coral;
+}
+
 i{
     padding-left: 5px;
 }
@@ -174,7 +178,6 @@ i{
 
 .titolo{
     width: 780px;
-    height: 100%;
     padding-top: 50px;
     font-size: 1.9rem;
 }
@@ -204,7 +207,7 @@ span{
 
 #divisorio{
     width: 100%;
-    height: 90px;
+    height: 85px;
     background-color: rgba(175, 235, 228, 1);
     border-top: 3px solid rgba(51, 71, 91, 1);
     border-bottom: 3px solid rgba(51, 71, 91, 1);
@@ -493,7 +496,7 @@ i{
 **************** */
 
 /* *************
-partners
+bg partners 
 *************** */
 .bg{
     width: 100%;
@@ -526,7 +529,7 @@ partners
 }
 
 .partners{
-    width: 900px;
+    width: 60%;
     height: 200px;
     display: inline-block;
     position: absolute;
@@ -557,10 +560,18 @@ partners
 /partners
 ****************** */
 
-.contact{
+/* ****************
+footer
+***************** */
+footer>.contact{
     width: 100%;
-    height: 600px;
+    height: 610px;
     background-color:rgba(50, 73, 91, 1) ;
+}
+
+.fot_perc{
+    width: 75%;
+    margin: auto;
 }
 
 .link{
@@ -581,12 +592,13 @@ h4{
     font-size: 15px;
     font-weight: 600;
     line-height: 40px;
+    cursor: pointer;
 }
 
 .lingue{
     height: 40px;
     width: 100%;
-    border-bottom: 2px solid white ;
+    border-bottom: 1px solid rgba(194, 205, 218, 1);
     float: left;
     text-align: center;
 }
@@ -599,17 +611,32 @@ h4{
     font-size: 15px;
 }
 
+.link>ul>.sol:hover{
+    background-color:rgba(129, 183, 224, 0.637) ;
+    color:rgba(194, 205, 218, 1) ;
+}
+
 .lingue>ul>li{
     display: inline;
     margin: 20px;
     color:rgba(194, 205, 218, 1) ;
     font-weight: 600;
+    cursor: pointer;
+}
+
+footer li:hover{
+    color: coral;
 }
 
 .copyright{
     width: 100%;
     height: 100px;
     float: left;
+}
+
+.cop_left{
+    display: inline-block;
+    width: 50%;
 }
 
 .cop_left>img{
@@ -620,3 +647,24 @@ h4{
 .cop_left>span{
     color:rgba(194, 205, 218, 1) ;
 }
+
+.cop_right>ul>li{
+    display: inline;
+    margin: 20px 0px 40px 20px;
+    color:rgba(194, 205, 218, 1) ;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.cop_right{
+    text-align: right;
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+/* *************
+/footer 
+****************/
