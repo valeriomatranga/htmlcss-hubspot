@@ -357,6 +357,7 @@ free hub
     width: 75%;
     height: 900px;
     margin: auto;
+    margin-bottom: 50px;
 }
 
 .colon{
@@ -408,3 +409,150 @@ free hub
 /* *************
 colonne
 ************** */
+
+/* ***********
+griglia
+************ */
+.griglia{
+    height: 800px;
+    width: 100%;
+    background: linear-gradient(89.86deg, #00AAB7 3.15%, #71D89A 96.06%, #FFFFFF 96.07%, #71D8B3 96.08%);
+}
+
+.title>h2{
+    color: white;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.perc{
+    width: 75%;
+    margin: auto;
+    position: relative;
+}
+
+.griglia>.perc>p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.section{
+    height: 250px;
+    display: inline-block;
+    border-right: 1px solid white;
+    width: calc(100% / 4 - 4px);
+}
+
+.top{
+    margin-top: 50px;
+    border-bottom: 1px solid white;
+}
+
+.top:nth-last-child(5){
+    border-right: 0px solid;
+}
+
+.bot:nth-last-child(1){
+    border-right: 0px solid;
+}
+
+.section>.imag{
+    height: 40px;
+    margin-top: 30px;
+}
+
+.section>span{
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 25px;
+    height: 50px;
+
+}
+
+i{
+    font-size: 20px;
+    line-height: 50px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.section>p{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+/* ***************
+/griglia
+**************** */
+
+/* *************
+partners
+*************** */
+.bg{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.customers{
+    width: 300px;
+    margin: 0px 0px 50px 80px;
+}
+
+.perc{
+    height: 750px;
+}
+
+
+.customers>h2{
+    font-size: 55px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.titolo>h2{
+    font-size: 27px;
+    text-align: left;
+    width: 100%;
+}
+
+.perc>.left>.titolo{
+    width: 100%;
+}
+
+.partners{
+    width: 900px;
+    height: 200px;
+    display: inline-block;
+    position: absolute;
+    top: 55px;
+    right: 30px;
+}
+
+.perc>.right{
+    height: 400px;
+    padding: 0;
+}
+
+.right>.partners>.icon{
+
+    margin: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.woman{
+    object-fit: contain;
+    width: 350px;
+    position: absolute;
+    right: 0px;
+    bottom: 70px;
+}
+/* *****************
+/partners
+****************** */
