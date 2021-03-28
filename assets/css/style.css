@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .cleafix{
@@ -61,6 +61,8 @@ a:hover{
 
 i{
     padding-left: 5px;
+    padding-right: 4px;
+    line-height: 2px;
 }
 
 .contact{
@@ -178,27 +180,35 @@ i{
 
 .titolo{
     width: 780px;
-    padding-top: 50px;
+    padding-top: 25px;
     font-size: 1.9rem;
 }
 
 p{
     color: rgba(60, 79, 97, 1);
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     line-height: 35px;
     margin-top: 20px;
 }
 
+.customers>p{
+    width: 250px;
+}
+
+.perc>.left{
+    color: rgba(60, 79, 97, 1);
+}
+
 .titolo>.btn{
     padding: 20px 40px;
-    margin: 20px 0px;
+    margin: 35px 0px;
     font-size: 1rem;
 }
 
 span{
     color: rgba(60, 79, 97, 1);
-    font-size: 13px;
+    font-size: 11px;
     display: block;
     font-weight: 600;
     margin-top: 10px;
@@ -265,7 +275,9 @@ free hub
     width: 75%;
     margin: 50px auto;
     background-color: white;
-    box-shadow: 3px gray;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #3333332f;
+
 } 
 
 .free{
@@ -307,6 +319,7 @@ free hub
 h3{
     font-size: 1.5rem;
     padding-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 .popolar{
@@ -358,14 +371,14 @@ free hub
 
 .container_colon{
     width: 75%;
-    height: 900px;
+    height: 860px;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: auto;
 }
 
 .colon{
     width: calc(100% / 3 - 34px);
-    height: 100%;
+    height: 94%;
     background-color: white;
     display: inline-block;
     float: left;
@@ -374,6 +387,14 @@ free hub
     font-size: 20px;
     font-weight: 600;
     color:rgba(60, 79, 97, 1);
+    border-radius: 5px;
+    box-shadow: 0 0 5px #3333332f;
+}
+
+.cln{
+    height: 400px;
+    width: 300px;
+    margin: auto;
 }
 
 .first{
@@ -396,8 +417,8 @@ free hub
 
 .colon>ul>li{
     display: block;
-    margin: 10px;
     text-align: left;
+    margin: 0px 0px 0px 10px;
 }
 
 .colon .imag{
@@ -417,18 +438,19 @@ colonne
 griglia
 ************ */
 .griglia{
-    height: 800px;
+    height: 840px;
     width: 100%;
     background: linear-gradient(89.86deg, #00AAB7 3.15%, #71D89A 96.06%, #FFFFFF 96.07%, #71D8B3 96.08%);
 }
 
 .title>h2{
     color: white;
-    width: 1200px;
+    width: 1050px;
     margin: auto;
     text-align: center;
     font-size: 30px;
     padding-top: 40px;
+    margin-bottom: 20px;
 }
 
 .perc{
@@ -442,6 +464,10 @@ griglia
     text-align: center;
     font-size: 15px;
     margin-top: 20px;
+    width: 1190px;
+    margin: auto;
+    line-height: 25px;
+    font-weight: 500;
 }
 
 .section{
@@ -519,7 +545,7 @@ bg partners
     margin-bottom: 30px;
 }
 .titolo>h2{
-    font-size: 27px;
+    font-size: 30px;
     text-align: left;
     width: 100%;
 }
@@ -587,7 +613,7 @@ h4{
     margin: 20px 20px 20px 0px;
 }
 
-.link>ul>li{
+.link>ul>li>a{
     color: rgba(194, 205, 218, 1);
     font-size: 15px;
     font-weight: 600;
@@ -595,8 +621,13 @@ h4{
     cursor: pointer;
 }
 
+.link>ul>i{
+    color:rgba(194, 205, 218, 1);
+    margin-right: 4px;
+}
+
 .lingue{
-    height: 40px;
+    height: 80px;
     width: 100%;
     border-bottom: 1px solid rgba(194, 205, 218, 1);
     float: left;
@@ -609,6 +640,7 @@ h4{
     color:rgba(50, 73, 91, 1);
     border: none;
     font-size: 15px;
+    margin-right: 70px;
 }
 
 .link>ul>.sol:hover{
@@ -616,15 +648,20 @@ h4{
     color:rgba(194, 205, 218, 1) ;
 }
 
-.lingue>ul>li{
+.lingue>ul>li>a{
     display: inline;
     margin: 20px;
     color:rgba(194, 205, 218, 1) ;
     font-weight: 600;
     cursor: pointer;
+    line-height: 100px;
 }
 
-footer li:hover{
+.lingue>ul{
+    display: inline-flex;
+}
+
+footer li a:hover{
     color: coral;
 }
 
@@ -646,6 +683,12 @@ footer li:hover{
 
 .cop_left>span{
     color:rgba(194, 205, 218, 1) ;
+    margin: 0px;
+}
+
+.cop_left>span>i{
+    height: 21px;
+    width: 30px;
 }
 
 .cop_right>ul>li{
