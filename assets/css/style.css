@@ -7,7 +7,7 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.cleafix{
+.clearfix{
     content: "";
     display: table;
     clear: both;
@@ -140,7 +140,7 @@ i{
     width: 79%;
     display: inline-block;
     text-align: right;
-}
+ }
 
 .menu_left>ul>li>a>i{
     padding-left: 10px;
@@ -149,6 +149,110 @@ i{
 .menu_left>ul>li{
     padding-left: 10px;
 }
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    box-shadow: 0 0 5px #33333323;
+    border: 1px solid rgba(128, 128, 128, 0.301);
+    z-index: 1;
+    color: rgba(60, 79, 97, 1);
+}
+
+.software{
+    width: 520px;
+    height: 550px;
+    margin: 0px -10px;
+}
+
+.drop_left{
+    display: inline-block;
+    width: 10%;
+}
+
+.drop_left>img{
+    width: 100%;
+}
+
+.dropdown_content>.drop_right a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 0px;
+}
+
+.drop_right{
+    width: 85%;
+    height: 50px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: text-bottom;
+    padding-left: 5px;
+}
+
+.drop_right>span{
+    color: gray;
+    line-height: 0px;
+    padding-top: 10px;
+}
+
+.dropdown:hover .dropdown_content{
+    display: block;
+}
+
+.drop{
+    margin: 20px 20px;
+    padding-bottom:20px;
+}
+
+.drop_right:hover{
+    box-shadow: 0 0 5px #33333323;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.61);
+    transition-duration: 0.2s;
+    padding-bottom: 15px;
+}
+
+.drop:nth-child(5){
+    border-bottom: 1px solid rgba(128, 128, 128, 0.61);
+}
+
+.drop_button{
+    text-align: left;
+    padding-left: 40px
+}
+
+.resources{
+    width: 900px;
+    height: 350px;
+    margin: 0px -550px;
+}
+
+.drop_resources{
+    width: calc(100% / 3 - 3px);
+    text-align: left;
+    display: inline-block;
+}
+
+.resources>.drop{
+    margin: 33px 20px;
+    padding-bottom: 30px;
+}
+
+.drop_resources:hover{
+    border-left:3px solid coral;
+    box-shadow: 0 0 5px #33333323;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.61);
+    transition-duration: 0.2s;
+    padding-bottom: 15px;
+ 
+}
+
+
 /***************
 /nav bottom
 **************  */
